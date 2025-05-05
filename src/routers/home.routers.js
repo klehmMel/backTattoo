@@ -1,5 +1,5 @@
 import {Router} from "express";
-// import homeController from '../controller/home.controller.js';
+import homeController from '../controllers/home.controller.js';
 
 const routerHome = new Router()
 

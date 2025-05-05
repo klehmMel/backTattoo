@@ -18,6 +18,10 @@ class App {
         }));
 
     }
+
+    routes() {
+        this.app.use('/', homeRoutes)
+    }
 }
 
 export default new App().app
